@@ -104,9 +104,9 @@ export function AIAssessmentModal({ isOpen, onClose }) {
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="sm:max-w-[500px] bg-gray-800 text-gray-100 border-purple-500">
+      <DialogContent className="sm:max-w-[500px] bg-black text-gray-100 border-purple-500">
         <DialogHeader>
-          <DialogTitle className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+          <DialogTitle className="text-2xl font-bold text-transparent text-yellow-300">
             AI Risk Assessment
           </DialogTitle>
         </DialogHeader>

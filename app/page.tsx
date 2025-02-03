@@ -19,7 +19,7 @@ export default function Home() {
   };
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-start p-24 bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900">
+    <main className="flex min-h-screen flex-col items-center justify-start p-36 bg-black">
       <h1 className="text-5xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
         HorizonAI
       </h1>
@@ -52,7 +52,7 @@ export default function Home() {
         </Card> */}
       </section>
 
-      <h2 className="text-3xl font-semibold mb-8 text-gray-200">
+      <h2 className="text-3xl font-semibold mb-8 text-yellow-300">
         Choose Your Risk Level
       </h2>
       <div className="grid grid-cols-3 gap-8 w-full max-w-5xl mb-12">
